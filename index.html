@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="blog">
+	<head>
+		<title>daniloluca</title>
+		<link href="assets/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"></link>
+		<link href="assets/libs/font-awesome/css/font-awesome.min.css" rel="stylesheet"></link>
+		<link href="assets/css/clean-blog.min.css" rel="stylesheet"></link>
+	</head>
+	<body>
+		<header ui-header></header>
+	    <section>
+	      <div class="container">
+	        <div class="col-sm-12">
+	          <div class="row">
+	            <div ui-view></div>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+	    <footer ui-footer></footer>
+
+		<script src="assets/libs/angular/angular.min.js"></script>
+		<script src="assets/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="assets/libs/jquery/dist/jquery.min.js"></script>
+		<script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="app/app.modules.js"></script>
+		<script src="app/app.routes.js"></script>
+		<script src="app/components/home/home.controller.js"></script>
+		<script src="app/shared/header/header.directive.js"></script>
+		<script src="app/shared/footer/footer.directive.js"></script>
+	</body>
+</html>
