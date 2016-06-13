@@ -1,5 +1,7 @@
-angular.module('blog.home', [])
+(function(){
+	angular.module('blog.home', [])
 
-.controller('homeCtrl', function(){
+	.controller('homeCtrl', function(){
 
-});
+	});
+})();
