@@ -13,6 +13,11 @@
 		.state('about', {
 			url: '/about',
 			templateUrl: 'app/components/about/about.view.html'
+		})
+
+		.state('contact', {
+			url: '/contact',
+			templateUrl: 'app/components/contact/contact.view.html'
 		});
 	});
 })();

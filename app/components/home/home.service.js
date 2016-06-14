@@ -4,7 +4,7 @@
 	.factory('HomeService', function(){
 
 		return {
-			
+
 		};
 	});
 })();

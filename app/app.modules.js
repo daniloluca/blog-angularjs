@@ -4,6 +4,7 @@
 		'blog.header',
 		'blog.footer',
 		'blog.home',
-		'blog.about'
+		'blog.about',
+		'blog.contact'
 	]);
 })();
