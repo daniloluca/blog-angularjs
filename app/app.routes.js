@@ -18,6 +18,11 @@
 		.state('contact', {
 			url: '/contact',
 			templateUrl: 'app/components/contact/contact.view.html'
+		})
+
+		.state('post', {
+			url: '/post/:id',
+			templateUrl: 'app/components/post/post.view.html'
 		});
 	});
 })();

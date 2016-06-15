@@ -5,6 +5,7 @@
 		'blog.footer',
 		'blog.home',
 		'blog.about',
-		'blog.contact'
+		'blog.contact',
+		'blog.post'
 	]);
 })();
