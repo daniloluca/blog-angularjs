@@ -6,6 +6,7 @@
 		'blog.home',
 		'blog.about',
 		'blog.contact',
-		'blog.post'
+		'blog.post',
+		'blog.new'
 	]);
 })();

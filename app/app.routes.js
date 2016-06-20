@@ -24,6 +24,12 @@
 		.state('post', {
 			url: '/post/:id',
 			templateUrl: 'app/components/post/post.view.html'
+		})
+
+		.state('new', {
+			url: '/new',
+			templateUrl: 'app/components/new/new.view.html',
+			controller: 'newCtrl'
 		});
 	});
 })();
